@@ -1,15 +1,51 @@
 <!DOCTYPE html>
-<html lang="">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Optimizer</title>
-    <link rel="stylesheet" type="text/css" href="ThemeLayout.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
 </head>
-
 <body>
-    <p><img id="Logo" src="Images/PORTFOLIO%20OPTIMIZER.png"></p>
-    
+<h1 align="center">MCKT</h1>
+<h3 align="center">LOGIN</h3>
+<form method="post" action="BusinessLayer/validate.php">
+<table align="center">
+	<tr>
+	<td>
+	Email:
+	</td>
+	<td>
+	<input type="email" name="uId"/>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	Password:
+	</td>
+	<td>
+	<input type="password" name="pId"/>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	</td>
+	<td>
+	<br>
+	<input type="submit" name="login" value="Log in"/>
+	</td>
+	</tr>
+</table>
+</form>
+<form action="BusinessLayer/registration.php" method="POST">
+<table align="center">
+<tr>
+	<td>
+	<br>
+	<h3></h3>
+	<h3></h3>
+	<input type="submit" name="register" value="Register Now!!"/>
+	</td>
+</tr>
+</table>
+</form>
 </body>
 </html>
